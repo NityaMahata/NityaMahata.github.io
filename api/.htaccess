@@ -1,0 +1,10 @@
+#URL Simplify
+
+RewriteEngine On # Turn on the rewriting engine
+RewriteRule ^car_rents/?$ car_rents.php [NC,L]
+RewriteRule ^car_rents/([0-9]+)/?$ car_rents.php?car_rents_id=$1 [NC,L]
+RewriteRule ^list/?$ list.php [NC,L]
+RewriteRule ^list_one/?$ list_one.php [NC,L]
+RewriteRule ^create/?$ create.php [NC,L]
+RewriteRule ^update/?$ update.php [NC,L]
+RewriteRule ^delete/?$ delete.php [NC,L]

@@ -3,7 +3,7 @@
 	// For Delete a Product
     ini_set("display_errors", 0);
 	
-	$url = 'http://localhost/project/api/car_rents/6';
+	$url = 'http://localhost/project/api/car_rents/10';
 	$ch = curl_init($url);
 	curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'DELETE');
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
